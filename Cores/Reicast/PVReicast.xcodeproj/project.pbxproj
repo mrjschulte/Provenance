@@ -283,7 +283,6 @@
 		B3447F28218BEE3F00557ACE /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = B33941F420783CBC008DBAB4 /* pngread.c */; };
 		B3447F29218BEE3F00557ACE /* ta_ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339417620783CBB008DBAB4 /* ta_ctx.cpp */; };
 		B3447F2A218BEE3F00557ACE /* Renderer_if.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339418420783CBB008DBAB4 /* Renderer_if.cpp */; };
-		B3447F2B218BEE3F00557ACE /* nixprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33941D520783CBC008DBAB4 /* nixprof.cpp */; };
 		B3447F2C218BEE3F00557ACE /* coreio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339423D20783CBC008DBAB4 /* coreio.cpp */; };
 		B3447F2D218BEE3F00557ACE /* zip_fclose.c in Sources */ = {isa = PBXBuildFile; fileRef = B339428420783CBC008DBAB4 /* zip_fclose.c */; };
 		B3447F2E218BEE3F00557ACE /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = B33941FC20783CBC008DBAB4 /* pngrtran.c */; };
@@ -4252,7 +4251,6 @@
 				B3447F28218BEE3F00557ACE /* pngread.c in Sources */,
 				B3447F29218BEE3F00557ACE /* ta_ctx.cpp in Sources */,
 				B3447F2A218BEE3F00557ACE /* Renderer_if.cpp in Sources */,
-				B3447F2B218BEE3F00557ACE /* nixprof.cpp in Sources */,
 				B3447F2C218BEE3F00557ACE /* coreio.cpp in Sources */,
 				B3447F2D218BEE3F00557ACE /* zip_fclose.c in Sources */,
 				B3447F2E218BEE3F00557ACE /* pngrtran.c in Sources */,
