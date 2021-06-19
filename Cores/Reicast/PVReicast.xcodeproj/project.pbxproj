@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A69C9C1267E6D0800715A1B /* nixprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A69C9C0267E6D0800715A1B /* nixprof.cpp */; };
+		0A69C9C2267E6D0800715A1B /* nixprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A69C9C0267E6D0800715A1B /* nixprof.cpp */; };
 		B30178DC207C908E0051B93D /* zip_source_filep.c in Sources */ = {isa = PBXBuildFile; fileRef = B339426E20783CBC008DBAB4 /* zip_source_filep.c */; };
 		B30178DD207C908E0051B93D /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33941DD20783CBC008DBAB4 /* md5.cpp */; };
 		B30178DE207C908F0051B93D /* aica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33941AA20783CBB008DBAB4 /* aica.cpp */; };
@@ -65,7 +67,6 @@
 		B3017913207C908F0051B93D /* maple_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339419520783CBB008DBAB4 /* maple_helper.cpp */; };
 		B3017914207C908F0051B93D /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = B33941E920783CBC008DBAB4 /* pngtrans.c */; };
 		B3017915207C908F0051B93D /* pvr_sb_regs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339417E20783CBB008DBAB4 /* pvr_sb_regs.cpp */; };
-		B3017916207C908F0051B93D /* nixprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33941D520783CBC008DBAB4 /* nixprof.cpp */; };
 		B3017917207C908F0051B93D /* sh4_opcode_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B339414D20783CBB008DBAB4 /* sh4_opcode_list.cpp */; };
 		B3017918207C908F0051B93D /* zip_error.c in Sources */ = {isa = PBXBuildFile; fileRef = B339426F20783CBC008DBAB4 /* zip_error.c */; };
 		B3017919207C908F0051B93D /* zip_set_file_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = B339427C20783CBC008DBAB4 /* zip_set_file_comment.c */; };
@@ -415,6 +416,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A69C9C0267E6D0800715A1B /* nixprof.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nixprof.cpp; path = nixprof/nixprof.cpp; sourceTree = "<group>"; };
 		B30178D3207C901D0051B93D /* libreicast-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreicast-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B316B4E621926FE500693472 /* emu.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emu.cfg; sourceTree = "<group>"; };
 		B324C31B2191964F009F4EDC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -577,7 +579,6 @@
 		B33941D120783CBC008DBAB4 /* typedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = "<group>"; };
 		B33941D220783CBC008DBAB4 /* context.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = context.cpp; sourceTree = "<group>"; };
 		B33941D320783CBC008DBAB4 /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
-		B33941D520783CBC008DBAB4 /* nixprof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nixprof.cpp; sourceTree = "<group>"; };
 		B33941D720783CBC008DBAB4 /* nacl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nacl.cpp; sourceTree = "<group>"; };
 		B33941D820783CBC008DBAB4 /* nacl_lin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nacl_lin.cpp; sourceTree = "<group>"; };
 		B33941D920783CBC008DBAB4 /* stdclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdclass.h; sourceTree = "<group>"; };
@@ -1816,21 +1817,13 @@
 		B33941CF20783CBC008DBAB4 /* linux */ = {
 			isa = PBXGroup;
 			children = (
+				0A69C9C0267E6D0800715A1B /* nixprof.cpp */,
 				B33941D020783CBC008DBAB4 /* common.cpp */,
 				B33941D120783CBC008DBAB4 /* typedefs.h */,
 				B33941D220783CBC008DBAB4 /* context.cpp */,
 				B33941D320783CBC008DBAB4 /* context.h */,
-				B33941D420783CBC008DBAB4 /* nixprof */,
 			);
 			path = linux;
-			sourceTree = "<group>";
-		};
-		B33941D420783CBC008DBAB4 /* nixprof */ = {
-			isa = PBXGroup;
-			children = (
-				B33941D520783CBC008DBAB4 /* nixprof.cpp */,
-			);
-			path = nixprof;
 			sourceTree = "<group>";
 		};
 		B33941D620783CBC008DBAB4 /* nacl */ = {
@@ -4046,6 +4039,7 @@
 				B30178F4207C908F0051B93D /* gltex.cpp in Sources */,
 				B301791F207C908F0051B93D /* zip_unchange_archive.c in Sources */,
 				B3017978207C908F0051B93D /* profiler.cpp in Sources */,
+				0A69C9C1267E6D0800715A1B /* nixprof.cpp in Sources */,
 				B3017949207C908F0051B93D /* cdipsr.cpp in Sources */,
 				B30178EE207C908F0051B93D /* audiobackend_pulseaudio.cpp in Sources */,
 				B3017911207C908F0051B93D /* zip_entry_free.c in Sources */,
@@ -4067,7 +4061,6 @@
 				B30178EC207C908F0051B93D /* pngread.c in Sources */,
 				B30178F1207C908F0051B93D /* ta_ctx.cpp in Sources */,
 				B3017973207C908F0051B93D /* Renderer_if.cpp in Sources */,
-				B3017916207C908F0051B93D /* nixprof.cpp in Sources */,
 				B301795F207C908F0051B93D /* coreio.cpp in Sources */,
 				B30178FF207C908F0051B93D /* zip_fclose.c in Sources */,
 				B3017961207C908F0051B93D /* pngrtran.c in Sources */,
@@ -4230,6 +4223,7 @@
 				B3447F13218BEE3F00557ACE /* gltex.cpp in Sources */,
 				B3447F14218BEE3F00557ACE /* zip_unchange_archive.c in Sources */,
 				B3447F15218BEE3F00557ACE /* profiler.cpp in Sources */,
+				0A69C9C2267E6D0800715A1B /* nixprof.cpp in Sources */,
 				B3447F16218BEE3F00557ACE /* cdipsr.cpp in Sources */,
 				B3447F17218BEE3F00557ACE /* audiobackend_pulseaudio.cpp in Sources */,
 				B3447F18218BEE3F00557ACE /* zip_entry_free.c in Sources */,
